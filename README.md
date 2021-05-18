@@ -16,7 +16,7 @@ yarn  | v1.22.10 and higher :white_check_mark:
 ### How to set up the project
 - Clone this repo using command :
     ```sh
-    git clone https://github.com/cerbo-bot/nodejs-template.git
+    git clone https://github.com/cerbo-bot/nodejs-template.git <service-name>
     ```
 
 - Modify `package.json` file and set the service name.
