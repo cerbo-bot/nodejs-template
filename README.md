@@ -14,7 +14,7 @@ yarn  | v1.22.10 and higher :white_check_mark:
 
 
 ### How to set up the project
-- Simply click on "use this template" option OR 
+- Simply click on ["use this template"](https://github.com/cerbo-bot/nodejs-template/generate) option OR 
 - Clone this repo using command :
     ```sh
     git clone https://github.com/cerbo-bot/nodejs-template.git <service-name>
