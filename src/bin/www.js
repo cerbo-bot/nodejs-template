@@ -5,8 +5,12 @@
  */
 import debug from 'debug';
 import http from 'http';
+import { CONFIG } from '../config';
+
 import app from '../app';
-import { PORT } from '../settings';
+
+const { NODE_PORT } = CONFIG;
+
 /**
  * Normalize a port into a number, string, or false.
  */
@@ -26,7 +30,7 @@ const normalizePort = (val) => {
 /**
  * Get port from environment and store in Express.
  */
-const port = normalizePort(PORT || '3000');
+const port = normalizePort(NODE_PORT || '4001');
 app.set('port', port);
 
 /**

@@ -2,7 +2,6 @@
   "name": "change-to-service-name",
   "version": "0.0.0",
   "private": true,
-
   "scripts": {
     "prestart": "babel ./src --out-dir build",
     "start": "node ./build/bin/www",
@@ -14,11 +13,13 @@
   },
   "dependencies": {
     "app-root-path": "^3.0.0",
+    "conf": "^10.1.1",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "dotenv": "^9.0.0",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
+    "js-yaml": "^4.1.0",
     "morgan": "~1.9.1",
     "winston": "^3.3.3"
   },
